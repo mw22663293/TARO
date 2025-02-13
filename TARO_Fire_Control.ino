@@ -1,5 +1,5 @@
-#include <Arduino.h>
-#include <Ewma.h>
+#include <Arduino.h>              // Add library from library manager
+#include <Ewma.h>                 // Add library from library manager - Exponentially Weighted Moving Average filter
 
 //Fire Control
 const int buttonPinFlywheel = 2;  // Flywheel Rev microswitch pin number
